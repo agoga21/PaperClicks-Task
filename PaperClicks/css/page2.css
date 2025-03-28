@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    font-family: 'Lucida Sans Unicode';  
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid grey;
+}
+.navContent h4{
+    color: #1b4ca3;
+}
+.logo{
+    width: 13%
+}
+.logo img{
+    width: 100%;
+    height: auto;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.h1{
+    padding-top: 3vh;
+    font-size: 1.2rem;
+}
+.inputFields{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.inputFields input{
+    width: 100%;
+    padding: 15px 10vw 15px 1.3vw;
+    border-radius: 5px;
+    margin-top: 2vh;
+    border: 1px solid rgb(158, 157, 157);
+    box-shadow: 1px 3px 4px rgb(198, 198, 198);
+}
+input:focus{
+    outline: none;
+}
+.belowInput{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: row;
+    margin-top: 2vh;
+    width: 40%;
+    gap: 1vw;
+    background-color: #fafafa;
+    padding: 1%;
+    text-align: justify;
+}
+.belowInput p{
+    width:100%;
+    font-size: 0.8rem;
+}
+#checkbox{
+    margin-top: 1vh;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    border-radius:5px;
+    width: 100%;
+}
+#submit{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #759cfe;
+    color: white;
+    cursor: pointer;
+    width: 25%;
+    font-weight: bold;
+    font-size: larger;
+}
+footer{
+    margin-top: 3vh;
+    height: 40vh;
+}
+.footerContent{
+    background-color: #ebebeb;
+    padding: 10vh 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 3vh;
+    height: 100%;
+    font-size: 0.8rem;
+}
+.belowBtn{
+    margin-top: 5vh;
+}
+.belowBtn a{
+    text-decoration: none;
+    color: black;
+    
+}
+.belowBtn a:not(:last-child)::after{
+    content: " |";
+    text-decoration: none;
+    color: black;
+    
+}
+#errorMsg{
+    color: red;
+    margin-top: 10px;
+    min-height: 25px;
+}
